@@ -18,20 +18,17 @@ var iconStart = querySelector(icon-menu);
 function Ativado(){
 const menu = document.createElement("div");
 iconStart.addEventListener("oncontextmenu", function(){
-//menu.style.position = "sticky";
-//menu.style.top = "78%";
-//menu.style.left = "50%";
+menu.style.position = "sticky";
+menu.style.top = "78%";
+menu.style.left = "50%";
 menu.style.width = "100px"
 menu.style.lenght = "100px"
-//menu.style.transform = "translate(-50%, -50%)";
+menu.style.transform = "translate(-50%, -50%)";
 menu.style.backgroundColor = "Transparent";
 menu.style.border = "5px relative red";
 menu.style.padding = "20px";
-})
+})//estilos gerados por Henry Pierre e modificado por android
 }
-
-websocketsend
-
 /*
 document.body.appendChild(menu);
     const button1 = top.document.createElement('button');
@@ -41,8 +38,15 @@ const button2 = top.document.createElement('button');
     button2.innerText = "Auto Size"
     top.document.body.appendChild(Button2);
 top.document.body.appendChild(menu);
-*/
-/*
-wight
-lenght
-`*/
+*//Código gerado por Henry Pierre e modificado por Android 
+ 
+const menutest = function Teste(){
+menutest.style.widht = "300px";
+menutest.style.lenght = "200px";
+menutest.style.boder = "5px red";
+menutest.style.boxshadow = "2px 2px 2px 2px";
+menutest.style.background = "Transparent";
+menutest.style.fontcolor = "Red"; 
+menutest.style.fontsize = "25";
+menutest.style.font = "Ravie";
+} //Este código foi desenvolvido por android.
