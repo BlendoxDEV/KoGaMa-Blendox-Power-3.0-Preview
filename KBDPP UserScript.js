@@ -40,7 +40,7 @@ const button2 = top.document.createElement('button');
 top.document.body.appendChild(menu);
 *//Código gerado por Henry Pierre e modificado por Android 
  
-const menutest = function Teste(){
+const menutest = document.createElement("div");
 menutest.style.widht = "300px";
 menutest.style.lenght = "200px";
 menutest.style.boder = "5px red";
@@ -49,4 +49,4 @@ menutest.style.background = "Transparent";
 menutest.style.fontcolor = "Red"; 
 menutest.style.fontsize = "25";
 menutest.style.font = "Ravie";
-} //Este código foi desenvolvido por android.
+//Este código foi desenvolvido por android.
